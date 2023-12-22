@@ -1,3 +1,22 @@
+@keyframes fadeInEffect {
+    from {
+      opacity: 0.5;
+      transform: translateY(7px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* body要素にアニメーションを適用 */
+  body.fade-in {
+    animation: fadeInEffect 0.5s ease-out;
+  }
+  .fade-in {
+    animation: fadeInEffect 0.5s ease-out;
+  }
+
 .title {
     font-size:100px;
 }

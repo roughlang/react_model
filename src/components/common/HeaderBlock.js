@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 
 function Header() {
     return (
-      <div>
+      <div className="fade-in">
         <h1 className="title">React model</h1>
         <Link to="/">Home</Link> | <Link to="/test">Test</Link> | <Link to="/sub1">Sub1</Link>
       </div>
