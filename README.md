@@ -1,13 +1,16 @@
 # React model
 
+
+## branch: model01
+
 ReactのデフォルトのプロジェクトにWEBサイトに必要な要素を付加したものになります。
 https://github.com/roughlang/react_model
 
 - portの変更 (.envの作成と設定 PORT=5001) 参考のためコミットしてますが、実際はignoreすべきです。
 - SAPの導入。シングルページで各ページをルーティングしています。ルーティングもroutes.jsを作成して別だしにしています。
 - 共通パーツの作成。各ページにはヘッダー・フッターの共通パーツを作成しています。
-- API連携の雛形
 - Material UIを使う
+- API連携の雛形
 
 
 # Getting Started with Create React App
