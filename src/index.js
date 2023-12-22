@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import HeaderBlock from './components/common/HeaderBlock.js';
+import FooterBlock from './components/common/FooterBlock.js';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <HeaderBlock />
     <App />
+    <FooterBlock />
   </React.StrictMode>
 );
 
